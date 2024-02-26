@@ -2,11 +2,11 @@ import { useState, useRef, useEffect } from "react";
 
 import "./reg.css";
 function Registar(props) {
-  const [gohome, setGohome] = useState(false);
+  const [gohome, setGohome] = useState(true);
   const nameRef = useRef("");
   const emailRef = useRef("");
   const paswordRef = useRef("");
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(false);
 
   useEffect(() => {
     setGohome(localStorage.getItem("hom"));
