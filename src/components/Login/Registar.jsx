@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 
 import "./reg.css";
 function Registar(props) {
-  const [gohome, setGohome] = useState(true);
+  const [gohome, setGohome] = useState(false);
   const nameRef = useRef("");
   const emailRef = useRef("");
   const paswordRef = useRef("");
